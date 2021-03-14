@@ -1,0 +1,47 @@
+object Form1: TForm1
+  Left = 571
+  Height = 367
+  Top = 401
+  Width = 495
+  Caption = 'Keyboard simulator'
+  ClientHeight = 367
+  ClientWidth = 495
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object Button1: TButton
+    Left = 216
+    Height = 47
+    Top = 32
+    Width = 110
+    Caption = 'Начать тренировку'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 216
+    Height = 47
+    Top = 88
+    Width = 110
+    Caption = 'Настройки'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 217
+    Height = 47
+    Top = 144
+    Width = 110
+    Caption = 'Инструкция'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 216
+    Height = 47
+    Top = 200
+    Width = 110
+    Caption = 'Выход'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+end
