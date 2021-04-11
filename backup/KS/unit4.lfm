@@ -1,0 +1,19 @@
+object Settings: TSettings
+  Left = 590
+  Height = 379
+  Top = 237
+  Width = 484
+  Caption = 'Настройки'
+  ClientHeight = 379
+  ClientWidth = 484
+  LCLVersion = '2.0.10.0'
+  object Back: TButton
+    Left = 368
+    Height = 60
+    Top = 320
+    Width = 117
+    Caption = 'Выход'
+    OnClick = BackClick
+    TabOrder = 0
+  end
+end

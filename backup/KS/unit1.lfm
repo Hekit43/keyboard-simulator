@@ -1,0 +1,46 @@
+object KS: TKS
+  Left = 590
+  Height = 379
+  Top = 237
+  Width = 484
+  Caption = 'Клавиатурный тренажер'
+  ClientHeight = 379
+  ClientWidth = 484
+  LCLVersion = '2.0.10.0'
+  object Start1: TButton
+    Left = 158
+    Height = 48
+    Top = 42
+    Width = 147
+    Caption = 'Начать тренировку'
+    OnClick = Start1Click
+    TabOrder = 0
+  end
+  object Settings1: TButton
+    Left = 158
+    Height = 48
+    Top = 112
+    Width = 147
+    Caption = 'Настройки'
+    OnClick = Settings1Click
+    TabOrder = 1
+  end
+  object Help: TButton
+    Left = 158
+    Height = 52
+    Top = 181
+    Width = 147
+    Caption = 'Инструкция'
+    OnClick = HelpClick
+    TabOrder = 2
+  end
+  object Exit1: TButton
+    Left = 158
+    Height = 45
+    Top = 255
+    Width = 147
+    Caption = 'Выход'
+    OnClick = Exit1Click
+    TabOrder = 3
+  end
+end
